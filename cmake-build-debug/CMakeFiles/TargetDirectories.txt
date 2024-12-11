@@ -1,0 +1,3 @@
+/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir
+/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

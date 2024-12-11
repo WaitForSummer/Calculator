@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug",
+	"dir-cur-src" : "/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator",
+	"dir-top-bld" : "/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug",
+	"dir-top-src" : "/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir"
+}
