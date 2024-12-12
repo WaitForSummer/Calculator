@@ -23,9 +23,9 @@ int getRang(Leksema &item) {
     return 0;
 }
 
-bool isValidFunction(const string& func) {
-    return (func == "sin" || func == "cos" || func == "tan" || func == "ctg" || func == "exp");
-}
+//bool isValidFunction(const string& func) {
+//    return (func == "sin" || func == "cos" || func == "tan" || func == "ctg" || func == "exp");
+//}
 
 // Функция для вычисления значения тригонометрической функции
 double calcFunction(const string &func, double x) {
