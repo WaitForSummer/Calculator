@@ -86062,22 +86062,23 @@ void infixToPostfix(const string &input, list<Leksema> &myqueue, double x_value,
             myqueue.push_back(item);
         }
         else if (Ch == '+' || Ch == '-' || Ch == '*' || Ch == '/') {
-            if (Ch == '-' && (fl || i == 0 || input[i-1] == '(' || input[i-1] == '+' || input[i-1] == '-' || input[i-1] == '*' || input[i-1] == '/')) {
+            if (Ch == '-' && (fl || i == 0 || input[i-1] == '('
+            || input[i-1] == '+' || input[i-1] == '-' || input[i-1] == '*' || input[i-1] == '/')) {
 
                 curT += Ch;
                 fl = false;
                 continue;
             }
 
-            Leksema operatorItem;
-            operatorItem.type = Ch;
+            Leksema operIt;
+            operIt.type = Ch;
 
-            while (!mystack.empty() && getRang(mystack.top()) >= getRang(operatorItem)) {
+            while (!mystack.empty() && getRang(mystack.top()) >= getRang(operIt)) {
                 myqueue.push_back(mystack.top());
                 mystack.pop();
             }
 
-            mystack.push(operatorItem);
+            mystack.push(operIt);
         }
         else if (Ch == '(') {
             Leksema item;
@@ -86093,15 +86094,16 @@ void infixToPostfix(const string &input, list<Leksema> &myqueue, double x_value,
         }
         else if (isalpha(Ch)) {
             curT += Ch;
-            if (curT == "sin" || curT == "cos" || curT == "tan" || curT == "ctg" || curT == "exp") {
+
+            if (isValidFunction(curT)) {
 
                 Leksema item;
                 item.type = 'f';
                 item.func = curT;
                 mystack.push(item);
                 curT.clear();
-            } else {
-                cerr << "ERROR!\nНеизвестная функция" << endl;
+            } else if (curT.length() > 3) {
+                cerr << "ERROR!\nНеизвестная функция: " << curT << endl;
                 exit(1);
             }
         }
@@ -86206,7 +86208,17 @@ int main() {
 
     list<Leksema> myqueue;
     infixToPostfix(input, myqueue, x_value, xInEXpression(input));
-# 230 "/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/main.cpp"
+
+
+    cout << "Постфиксная запись: ";
+    for (auto &item : myqueue) {
+        if (item.type == 0) cout << item.val << ' ';
+        else if (item.type == 'f') cout << item.func << ' ';
+        else cout << item.type << ' ';
+    }
+    cout << endl;
+
+
     double result = calculateResult(myqueue);
 
     cout << "Результат: " << result << endl;

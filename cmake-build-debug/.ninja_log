@@ -1,49 +1,74 @@
 # ninja log v6
-1	103	1733875874928589505	CMakeFiles/Calculator.dir/main.cpp.o.ddi	4799dddd4bf92c33
-103	107	1733875875028589505	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
-103	107	1733875875028589505	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
-107	988	1733875875032589505	CMakeFiles/Calculator.dir/main.cpp.o	d6d11d386ec48f2a
+1112	1192	1734040889797163909	Calculator	de976f40b36c5ed2
 1	21	1733875931184667538	build.ninja	4faf96dab521683b
-988	1066	1733875875912589536	Calculator	de976f40b36c5ed2
-2	105	1733875940908696114	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
-105	109	1733875941016696454	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
-105	109	1733875941016696454	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
-105	109	1733875941016696454	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
-109	977	1733875941016696454	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
-977	1052	1733875941884699218	Calculator	de976f40b36c5ed2
-2	105	1733876007144999354	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
-105	109	1733876007248999973	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
-105	109	1733876007248999973	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
-105	109	1733876007248999973	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
-109	969	1733876007252999997	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
-969	1044	1733876008113005120	Calculator	de976f40b36c5ed2
-1	124	1733876871639130250	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
-124	128	1733876871763133020	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
-124	128	1733876871763133020	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
-124	128	1733876871763133020	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
-129	1885	1733876871767133109	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
-1885	1969	1733876873523172351	Calculator	de976f40b36c5ed2
-1	108	1733877037718930404	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
-109	112	1733877037826932928	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
-109	112	1733877037826932928	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
-109	112	1733877037826932928	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
-112	982	1733877037826932928	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
-982	1062	1733877038698953308	Calculator	de976f40b36c5ed2
-1	108	1733877072267740802	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
-108	112	1733877072375743345	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
-108	112	1733877072375743345	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
-108	112	1733877072375743345	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
-112	965	1733877072379743439	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
-965	1042	1733877073231763501	Calculator	de976f40b36c5ed2
-2	112	1733877113992727295	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
-113	116	1733877114104729954	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
-113	116	1733877114104729954	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
-113	116	1733877114104729954	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
-116	976	1733877114108730049	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
-976	1054	1733877114968750468	Calculator	de976f40b36c5ed2
-1	106	1733877127913058192	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
-106	109	1733877128017060667	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
-106	109	1733877128017060667	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
-106	109	1733877128017060667	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
-109	992	1733877128017060667	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
-992	1067	1733877128901081710	Calculator	de976f40b36c5ed2
+113	1112	1734040888797148045	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+110	113	1734040888793147981	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+110	113	1734040888793147981	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+110	113	1734040888793147981	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+2	110	1734040888685146267	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+1	110	1734040935309880188	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+110	113	1734040935417881875	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+110	113	1734040935417881875	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+110	113	1734040935417881875	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+113	1134	1734040935421881937	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1134	1216	1734040936441897865	Calculator	de976f40b36c5ed2
+2	117	1734041003946940694	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+117	120	1734041004062942468	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+117	120	1734041004062942468	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+117	120	1734041004062942468	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+120	1105	1734041004066942529	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1105	1186	1734041005050957573	Calculator	de976f40b36c5ed2
+1	112	1734041174053483818	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+112	116	1734041174165485458	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+112	116	1734041174165485458	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+112	116	1734041174165485458	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+116	1084	1734041174169485516	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1084	1170	1734041175137499691	Calculator	de976f40b36c5ed2
+2	118	1734041542882711952	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+118	121	1734041542998713553	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+118	121	1734041542998713553	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+118	121	1734041542998713553	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+122	1137	1734041543002713608	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1137	1221	1734041544018727633	Calculator	de976f40b36c5ed2
+1	117	1734041758381655328	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+117	121	1734041758497656898	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+117	121	1734041758497656898	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+117	121	1734041758497656898	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+121	1083	1734041758501656952	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1083	1163	1734041759461669942	Calculator	de976f40b36c5ed2
+1	112	1734041795606158332	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+112	115	1734041795718159844	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+112	115	1734041795718159844	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+112	115	1734041795718159844	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+115	1075	1734041795722159898	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1076	1159	1734041796682172852	Calculator	de976f40b36c5ed2
+2	115	1734041812658388309	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+115	119	1734041812770389819	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+115	119	1734041812770389819	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+115	119	1734041812770389819	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+119	1082	1734041812774389873	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1082	1162	1734041813738402866	Calculator	de976f40b36c5ed2
+2	115	1734042076341915358	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+115	118	1734042076453916846	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+115	118	1734042076453916846	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+115	118	1734042076453916846	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+118	1159	1734042076457916899	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1159	1249	1734042077497930720	Calculator	de976f40b36c5ed2
+2	116	1734042234028195252	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+116	119	1734042234144197317	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+116	119	1734042234144197317	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+116	119	1734042234144197317	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+119	1124	1734042234148197389	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1124	1202	1734042235152215263	Calculator	de976f40b36c5ed2
+2	110	1734042257388609045	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+111	115	1734042257496610948	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+111	115	1734042257496610948	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+111	115	1734042257496610948	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+115	1087	1734042257500611018	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1087	1170	1734042258472628141	Calculator	de976f40b36c5ed2
+2	113	1734042279929004226	CMakeFiles/Calculator.dir/main.cpp.o.ddi	b12acd21ef488822
+113	116	1734042280037006110	CMakeFiles/Calculator.dir/CXX.dd	7b454d70b997bbad
+113	116	1734042280037006110	/home/wfs/Documents/BMSTU/Alg Lang/HomeWork/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/CXXModules.json	7b454d70b997bbad
+113	116	1734042280037006110	CMakeFiles/Calculator.dir/main.cpp.o.modmap	7b454d70b997bbad
+116	1128	1734042280041006180	CMakeFiles/Calculator.dir/main.cpp.o	263dddcf8ff35442
+1128	1209	1734042281053023830	Calculator	de976f40b36c5ed2

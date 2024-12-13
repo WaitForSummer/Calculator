@@ -23,9 +23,9 @@ int getRang(Leksema &item) {
     return 0;
 }
 
-//bool isValidFunction(const string& func) {
-//    return (func == "sin" || func == "cos" || func == "tan" || func == "ctg" || func == "exp");
-//}
+bool isValidFunction(const string& func) {
+    return (func == "sin" || func == "cos" || func == "tan" || func == "ctg" || func == "exp");
+}
 
 // Функция для вычисления значения тригонометрической функции
 double calcFunction(const string &func, double x) {
@@ -72,22 +72,23 @@ void infixToPostfix(const string &input, list<Leksema> &myqueue, double x_value,
             myqueue.push_back(item);
         }// Обработка операций
         else if (Ch == '+' || Ch == '-' || Ch == '*' || Ch == '/') {
-            if (Ch == '-' && (fl || i == 0 || input[i-1] == '(' || input[i-1] == '+' || input[i-1] == '-' || input[i-1] == '*' || input[i-1] == '/')) {
+            if (Ch == '-' && (fl || i == 0 || input[i-1] == '('
+            || input[i-1] == '+' || input[i-1] == '-' || input[i-1] == '*' || input[i-1] == '/')) {
                 // Унарный минус
                 curT += Ch;
                 fl = false;
                 continue;
             }
 
-            Leksema operatorItem;
-            operatorItem.type = Ch;
+            Leksema operIt;
+            operIt.type = Ch;
 
-            while (!mystack.empty() && getRang(mystack.top()) >= getRang(operatorItem)) {
+            while (!mystack.empty() && getRang(mystack.top()) >= getRang(operIt)) {
                 myqueue.push_back(mystack.top());
                 mystack.pop();
             }
 
-            mystack.push(operatorItem);
+            mystack.push(operIt);
         } // Обработка скобок
         else if (Ch == '(') {
             Leksema item;
@@ -103,16 +104,17 @@ void infixToPostfix(const string &input, list<Leksema> &myqueue, double x_value,
         } // sin, cos, tan, ctg, exp
         else if (isalpha(Ch)) {
             curT += Ch;
-            if (curT == "sin" || curT == "cos" || curT == "tan" || curT == "ctg" || curT == "exp") {
-                // Когда функция завершена, мы добавляем её в стек
+            // Проверка на завершение названия функции
+            if (isValidFunction(curT)) {
+                // Если функция завершена, добавляем её в стек
                 Leksema item;
-                item.type = 'f'; // Тип лексемы - функция
+                item.type = 'f';
                 item.func = curT;
                 mystack.push(item);
                 curT.clear();
-            } else {
-                cerr << "ERROR!\nНеизвестная функция" << endl;
-                exit(1); // Завершаем программу, если функция неверна
+            } else if (curT.length() > 3) { // Если слишком длинное имя и не валидно
+                cerr << "ERROR!\nНеизвестная функция: " << curT << endl;
+                exit(1);
             }
         }
         fl = false;
@@ -217,7 +219,7 @@ int main() {
     list<Leksema> myqueue;
     infixToPostfix(input, myqueue, x_value, xInEXpression(input));
 
-    /*
+
     cout << "Постфиксная запись: ";
     for (auto &item : myqueue) {
         if (item.type == 0) cout << item.val << ' ';
@@ -225,7 +227,7 @@ int main() {
         else cout << item.type << ' ';
     }
     cout << endl;
-    */
+
 
     double result = calculateResult(myqueue);
 
